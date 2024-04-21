@@ -14,7 +14,7 @@ Here's the list of all configs included:
 - `Neovim`:
 	- Uses [neovim for shorks](https://github.com/Sharkitty/neovim_for_shorks).
 	- Requires extra dependencies such as `gcc`.
-	- If used in [uBlahaj](https://github.com/Sharkitty/uBlahaj), using a `distrobox` is recommended (Same goes for any immutable distribution. `toolbox` is of course fine as well).
+	- If used in [uBlahaj](https://github.com/Sharkitty/uBlahaj), running neovim inside a `distrobox` is recommended (Same goes for any immutable distribution. `toolbox` is of course fine as well).
 - `wezterm`:
 	- All keybindings using the `super` key have been removed.
 - `zsh`:
