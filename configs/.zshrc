@@ -79,6 +79,9 @@ plugins=(
     aliases
     systemd
     vi-mode
+    ohmyzsh-full-autoupdate
+    zsh-syntax-highlighting
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -123,7 +126,3 @@ alias dbs="distrobox stop"
 alias dbup="distrobox upgrade"
 alias dbhe="distrobox-host-exec"
 alias dbeoc="distrobox-host-exec distrobox enter"
-
-# Manually handled plugins (RPM packages)
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
