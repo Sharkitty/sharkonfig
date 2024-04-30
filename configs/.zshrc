@@ -117,8 +117,6 @@ export EDITOR=vim
 # Aliases
 # Generic
 alias fox="bat"
-alias zel="zellij"
-alias nb="newsboat"
 
 # Distrobox
 alias dbe="distrobox enter"
