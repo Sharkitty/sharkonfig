@@ -7,6 +7,20 @@ local config = wezterm.config_builder()
 -- Be purrty
 config.color_scheme = 'tokyonight'
 
+config.window_decorations = "RESIZE" -- Allegedly faster
+config.use_fancy_tab_bar = false -- Tab bar
+
+-- If you're on wayland, this needs to be set to anything valid
+-- It doesn't seem to change anything in this case, except fixing errors
+-- If you're using X11, you might want to either set this to your preferred cursor
+-- or unset it and use `XCURSOR_THEME` environment variable instead
+config.xcursor_theme = 'Adwaita'
+
+-- Performance
+config.front_end = "WebGpu" -- WebGpu supoprts vulkan and more fine grained control
+config.webgpu_power_preference = "HighPerformance" -- Use discrete GPU if available
+config.animation_fps = 1 -- Disable smoothing animation for better performance
+
 -- Keybindings
 config.keys = {
 	{
