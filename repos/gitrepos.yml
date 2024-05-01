@@ -1,0 +1,16 @@
+repos:
+  neovim-for-shorks:
+    url: https://github.com/Sharkitty/neovim_for_shorks.git
+    target-dir: .config/nvim
+
+  ohmyzsh-full-autoupdate:
+    url: https://github.com/Pilaton/OhMyZsh-full-autoupdate.git
+    target-dir: ~/.oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate
+
+  zsh-autosuggestions:
+    url: https://github.com/zsh-users/zsh-autosuggestions.git
+    target-dir: ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+  zsh-syntax-highlighting:
+    url: https://github.com/zsh-users/zsh-syntax-highlighting.git
+    target-dir: ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
