@@ -5,12 +5,12 @@ repos:
 
   ohmyzsh-full-autoupdate:
     url: https://github.com/Pilaton/OhMyZsh-full-autoupdate.git
-    target-dir: ~/.oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate
+    target-dir: .oh-my-zsh/custom/plugins/ohmyzsh-full-autoupdate
 
   zsh-autosuggestions:
     url: https://github.com/zsh-users/zsh-autosuggestions.git
-    target-dir: ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    target-dir: .oh-my-zsh/custom/plugins/zsh-autosuggestions
 
   zsh-syntax-highlighting:
     url: https://github.com/zsh-users/zsh-syntax-highlighting.git
-    target-dir: ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+    target-dir: .oh-my-zsh/custom/plugins/zsh-syntax-highlighting

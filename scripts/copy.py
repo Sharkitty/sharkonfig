@@ -28,5 +28,7 @@ with open(Path(__file__).parent.parent.joinpath("repos/gitrepos.yml")) as f:
     if not repos_config:
         raise RuntimeError("Failed to load git repos config")
 
-for repo in repos_config.get("repos", {}).values():
-    Repo.clone_from(repo.get("url"), repo.get("target-dir"))
+for key, value in repos_config.get("repos", {}).items():
+    target_path = home_dir.joinpath(value.get("target-dir"))
+    print(f"Cloning {key} into {target_path}")
+    Repo.clone_from(value.get("url"), target_path)
