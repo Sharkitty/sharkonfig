@@ -33,6 +33,7 @@ for key, value in repos_config.get("repos", {}).items():
 
     if target_path.exists():
         print(f"{target_path} already exists. Skipping {key}")
+        continue
 
     print(f"Cloning {key} into {target_path}")
     Repo.clone_from(value.get("url"), target_path)
