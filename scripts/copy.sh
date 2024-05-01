@@ -1,14 +1,15 @@
 #!/bin/bash
 
 # Set up python envionment
-if ! [ -d ".venv" ]
+script_dir="$(dirname $0)"
+if ! [ -d "$script_dir/.venv" ]
 then
-    python3 -m venv .venv
+    python3 -m venv $script_dir/.venv
 fi
 
-source .venv/bin/activate
+source $script_dir/.venv/bin/activate
 python -m pip install pip --upgrade
 python -m pip install -r requirements.txt
 
 # Run copy.py
-python scripts/copy.py
+python $script_dir/copy.py
