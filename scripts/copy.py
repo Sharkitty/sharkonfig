@@ -30,5 +30,9 @@ with open(Path(__file__).parent.parent.joinpath("repos/gitrepos.yml")) as f:
 
 for key, value in repos_config.get("repos", {}).items():
     target_path = home_dir.joinpath(value.get("target-dir"))
+
+    if target_path.exists():
+        print(f"{target_path} already exists. Skipping {key}")
+
     print(f"Cloning {key} into {target_path}")
     Repo.clone_from(value.get("url"), target_path)
