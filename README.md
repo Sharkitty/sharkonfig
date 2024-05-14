@@ -23,4 +23,4 @@ Here's the list of all configs included:
 ## How to use it
 Configuration files are in the `configs` directory, you can copy any config file that interests you from there, into your home directory.
 
-Alternatively you can use the provided script: `python3 scripts/copy.sh`.
+Alternatively you can use the provided script: `scripts/copy.sh`.
