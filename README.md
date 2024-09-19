@@ -13,6 +13,7 @@ This way the looks are consistent, and it's pretty.
 Here's the list of all configs included:
 - `btop`.
 - `foot`.
+- `hyfetch` (with `neowofetch` as the backend).
 - `MangoHud`.
 - `Neovim`:
     - Uses [neovim for shorks](https://github.com/Sharkitty/neovim_for_shorks).
