@@ -1,4 +1,4 @@
-**MIGRATED TO [CODEBERG](https://codeberg.org/sharkitty/sharkonfig)***
+***MIGRATED TO [CODEBERG](https://codeberg.org/sharkitty/sharkonfig)***
 
 # Sharkonfig
 This is simply a collection of user configs, which are meant to be used in [uBlahaj](https://github.com/Sharkitty/uBlahaj). uBlahaj being based on fedora atomic, these configs are made with fedora in mind.
